@@ -13,15 +13,15 @@ int main()
         {
             
             if ( year%400 == 0)
-                printf("%d yes", year);
+                printf("yes", year);
             else
-                printf("%d no", year);
+                printf("no", year);
         }
         else
-            printf("%d yes", year );
+            printf("yes", year );
     }
     else
-        printf("%d no", year);
+        printf("no", year);
     
     return 0;
 }
