@@ -10,7 +10,7 @@ class Multi
         for(int i=1; i <= 5; i++)
         {
         	a=(n*i);
-            System.out.println(a);
+            System.out.println(a"\t");
         }
     }
 }
